@@ -1,14 +1,12 @@
-function navbar(str, str2, str3='JS') {
-  console.log('Navbar', str, str2, str3)
+
+const name = 'Jack'
+
+function render() {
+  console.log('hi')
 }
 
-// navbar('HTML', 'CSS', 'React JS')
-// navbar('HTML', 'CSS')
-// navbar('HTML', 'CSS')
-// navbar('HTML', 'CSS')
-// navbar('HTML', 'CSS')
-// navbar('CSS')
-// navbar('JS')
+
+render()
 
 
 
@@ -39,51 +37,31 @@ function navbar(str, str2, str3='JS') {
 
 
 
-let name = 'John'
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  } 
 
-let user = {
-  name: 'Jack',
-  surname: "Smith",
-  age: 20,
-  address: {
-    country: 'UK',
-    district: 'Lodon'
+  getInfo() {
+    console.log(this.name, this.age)
   }
 }
 
-const { name: ism, surname: familiya, age: yosh, address: {country: davlat, district: tuman} } = user
-// const age = user.age
-// const name = user.name
-// const country = user.address.country
+class Student extends User {
+  constructor(name, age, status) {
+    super(name, age);
+    this.status = status
+  }
 
-console.log(ism, familiya, yosh, davlat, tuman);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const users = ['HTML', 'CSS', 'JS', 'REACT JS', 'REDUX']
-
-function userss(user) {
-  console.log('User: ', user)
+  fullInfo() {
+    console.log(this.name, this.age, this.status)
+  }
 }
 
-users.forEach((user) => {
-  userss(user)
-})
+// const user1 = new User('John', 20)
+// user1.getInfo()
+
+// const student1 = new Student('Jack', 30, 'student')
+// student1.getInfo()
+// student1.fullInfo()
