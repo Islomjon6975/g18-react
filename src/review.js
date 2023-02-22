@@ -1,10 +1,43 @@
-function navbar(str, str2) {
-  console.log('Navbar', str, str2)
+function navbar(str, str2, str3='JS') {
+  console.log('Navbar', str, str2, str3)
 }
 
+// navbar('HTML', 'CSS', 'React JS')
+// navbar('HTML', 'CSS')
+// navbar('HTML', 'CSS')
+// navbar('HTML', 'CSS')
 // navbar('HTML', 'CSS')
 // navbar('CSS')
 // navbar('JS')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 let name = 'John'
 
@@ -18,12 +51,30 @@ let user = {
   }
 }
 
-const { name: ism, surname: familiya, age: yosh, address: {country, district} } = user
+const { name: ism, surname: familiya, age: yosh, address: {country: davlat, district: tuman} } = user
 // const age = user.age
 // const name = user.name
 // const country = user.address.country
 
-// console.log(ism, familiya, yosh, country, district);
+console.log(ism, familiya, yosh, davlat, tuman);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

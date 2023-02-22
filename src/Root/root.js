@@ -1,6 +1,7 @@
 import React from 'react'
+
 import Navbar from '../Navbar.js'
-import {Button as Btn} from '../Button.js'
+import Btn from '../Button.js'
 
 export const Root = () => {
 
@@ -22,6 +23,7 @@ export const Root = () => {
           ))
         }
       </div>
+      <Btn bg='blue'>Login</Btn>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Button(props) {
+function Button(props) { /// {bg: 'blue', children: 'Login'}
   console.log(props, 'btn props')
   return (
     <button
@@ -9,5 +9,5 @@ function Button(props) {
   )
 }
 
-// export default Button
-export {Button}
+export default Button
+// export {Button}
