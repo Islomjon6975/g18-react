@@ -1,0 +1,7 @@
+.test__title {
+  color: yellow;
+}
+
+.test__title:hover {
+  transform: scale(0.97);
+}
