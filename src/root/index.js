@@ -8,7 +8,7 @@ export const Root = () => {
   };
   return (
     <div>
-      <Button
+      {/* <Button
         width="150"
         height="50"
         color="black"
@@ -21,8 +21,8 @@ export const Root = () => {
         Login
       </Button>
       <Button>Register</Button>
-      <Button>Show</Button>
-      {/* <Test /> */}
+      <Button>Show</Button> */}
+      <Test />
     </div>
   );
 };
