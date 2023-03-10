@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import Home from "../components";
 
 export const Root = () => {
   return (
-    <div>Root</div>
-  )
-}
+    <div>
+      <Home />
+    </div>
+  );
+};
