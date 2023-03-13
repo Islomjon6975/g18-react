@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Todo from '../components/Todo';
 
 export const Root = () => {
-  return (
-    <div>Root</div>
-  )
-}
+	return (
+		<div>
+			<Todo />
+		</div>
+	);
+};
