@@ -1,10 +1,12 @@
 import React from 'react';
-import Todo from '../components/Todo';
+import Storage from '../components/LocalStorage';
+import UseEffect from '../components/UseEffect';
 
 export const Root = () => {
 	return (
 		<div>
-			<Todo />
+			{/* <UseEffect /> */}
+			<Storage />
 		</div>
 	);
 };
